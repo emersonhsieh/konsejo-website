@@ -1,0 +1,62 @@
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden; 
+}
+
+.center-block {
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+.center-block img{
+    width:40vw;
+}
+
+.center-block.konsejo {
+    background-image: url("../images/bg1.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 15vh;
+    min-height: 100vh;
+}
+
+.center-block.paragraph {
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 5vh;
+    padding-right: 20vw;
+    padding-bottom: 5vh;
+    padding-left: 20vw;
+}
+
+.center-block.bottom {
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 0;
+    padding-right: 5vw;
+    padding-bottom: 5vh;
+    padding-left: 5vw;
+}
+
+.konsejo-header {
+    color: #FFFFFF;
+    line-height: 150%;
+    font: 20pt sans-serif;
+}
+.konsejo-paragraph {
+    color: #FFFFFF;
+    font-size: 20pt;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background:#6cf;
+ }
